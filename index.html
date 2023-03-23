@@ -1,9 +1,3 @@
-<?php
-if($_POST["message"]) {
-mail("francisbessette07@gmail.com", "New Contact from Portofio",
-$_POST["Test"]. "From: DoNotReply@gmail.com");
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1016,7 +1010,7 @@ a:active {
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="contactSub.php" class="form" data-form>
+          <form methode="post" name="Email Form" action="form-to-email.php" class="form" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
