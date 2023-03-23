@@ -46,13 +46,18 @@
 	</style>
     <!-------------------------------------------------------------------- Script -------------------------------------------------------------------->
   <script>
-    function myFunction() {
-      // Copy the text inside the text field
-      navigator.clipboard.write("FrancisBessette07@gmail.com");
-
-      // Alert the copied text
-      alert("Copied the text: FrancisBessette07@gmail.com");
-    }
+function myFunction() {
+    var copyText = "FrancisBessette07@gmail.com";
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value)
+      .then(() => {
+        alert("successfully copied");
+      })
+      .catch(() => {
+        alert("something went wrong");
+      });
+}
 
   </script>
 </head>
