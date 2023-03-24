@@ -1168,7 +1168,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn {
   position: relative;
-  width: 50%;
+  width: 5px;
   background: var(--border-gradient-onyx);
   color: var(--orange-yellow-crayola);
   display: flex;
