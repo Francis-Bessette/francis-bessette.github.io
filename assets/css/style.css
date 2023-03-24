@@ -1,16 +1,9 @@
 /*-----------------------------------*\
   #style.css
 \*-----------------------------------*/
-
-
 /**
  * copyright 2022 @codewithsadee
  */
-
-
-
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -756,16 +749,11 @@ main {
 
 .clients-item img:hover { filter: grayscale(0); }
 
-
-
-
-
 /*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
-
 
 /**
  * education and experience 
@@ -1180,8 +1168,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn {
   position: relative;
-  width: 1px;
-  height: 1px;
+  width: 100%;
   background: var(--border-gradient-onyx);
   color: var(--orange-yellow-crayola);
   display: flex;
@@ -1538,7 +1525,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding: 16px 20px;
   }
 
-  .form-btn ion-icon { font-size: 18px; }
+  .form-btn ion-icon { font-size: 12px; }
 
 }
 
