@@ -1189,7 +1189,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   align-items: center;
   gap: 1px;
   padding: 2px 2px;
-  border-radius: 1px;
+  border-radius: 7px;
   font-size: var(--fs-6);
   text-transform: capitalize;
   box-shadow: var(--shadow-3);
