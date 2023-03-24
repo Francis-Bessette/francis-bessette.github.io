@@ -1180,7 +1180,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn {
   position: relative;
-  width: 100%;
+  width: 80%;
   background: var(--border-gradient-onyx);
   color: var(--orange-yellow-crayola);
   display: flex;
