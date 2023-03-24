@@ -1168,15 +1168,16 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn {
   position: relative;
-  width: 5px;
+  width: 1px;
+  height: 1px;
   background: var(--border-gradient-onyx);
   color: var(--orange-yellow-crayola);
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3px;
-  padding: 5px 5px;
-  border-radius: 5px;
+  gap: 1px;
+  padding: 2px 2px;
+  border-radius: 7px;
   font-size: var(--fs-6);
   text-transform: capitalize;
   box-shadow: var(--shadow-3);
