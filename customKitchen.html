@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Get more icons at https://ionic.io/ionicons -->
+<head>
+  <!-------------------------------------------------------------------- Google tag (gtag.js) -------------------------------------------------------------------->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KMFNJW712P"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KMFNJW712P');
+  </script>
+  <!-------------------------------------------------------------------- Title -------------------------------------------------------------------->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Kitchen</title>
+
+  <!-------------------------------------------------------------------- Favicon -------------------------------------------------------------------->
+  <link rel="shortcut icon" href="./assets/images/Francis-Bessette-Favicon.png" type="image/x-icon">
+
+  <!-------------------------------------------------------------------- Custom CSS link -------------------------------------------------------------------->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-------------------------------------------------------------------- Google Font Link-------------------------------------------------------------------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-------------------------------------------------------------------- Styling -------------------------------------------------------------------->
+  <style>
+	a:link {
+  		color: #9e9436;
+ 		background-color: transparent;
+  		text-decoration: none;
+	}
+
+	a:visited {
+  		color: #9F894B;
+  		background-color: transparent;
+  		text-decoration: none;
+	}
+
+	a:hover {
+  		color: #7b85b5;
+  		background-color: transparent;
+  		text-decoration: underline;
+	}
+
+	a:active {
+  		color: #e4e5ed;
+  		background-color: transparent;
+  		text-decoration: underline;
+	}
+	</style>
+  <!-------------------------------------------------------------------- Script -------------------------------------------------------------------->
+  <script>
+	function myFunction() {
+    		navigator.clipboard.writeText("FrancisBessette07@gmail.com")
+      		.then(() => {
+        		alert("Now send me an email!");
+      		})
+      		.catch(() => {
+        		alert("Something went wrong... But I can tell you that my email is FrancisBessette07@gmail.com");
+      		});
+		}
+  		</script>
+	</head>
+<body>
+
+  <!-------------------------------------------------------------------- Main -------------------------------------------------------------------->
+  <main>
+  <!-------------------------------------------------------------------- Sidebar -------------------------------------------------------------------->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/Profile-Picture.jpg" alt="Francis Bessette" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Francis Bessette">Francis Bessette</h1>
+
+          <p class="title">3rd Year Mechanical Engineering Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+  <!-------------------------------------------------------------------- Sidebar Info -------------------------------------------------------------------->
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <!-- The button used to copy the text -->
+              <button class="form-btn" onclick="myFunction()">
+                <ion-icon name="copy-outline"></ion-icon>
+                <span>Copy Email</span>
+              </button>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+13439984929" class="contact-link">+1 (343) 998-4929</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Ottawa, Ontario, Canada</address>
+            </div>
+          </li>
+	
+	<li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="download-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Download My Resume</p>
+              <a href="./assets/Francis Bessette_Apr2023.pdf">Download</a>
+            </div>
+          </li>
+        </ul>
+  <!-------------------------------------------------------------------- Sidebar Socials -------------------------------------------------------------------->
+        <div class="separator"></div>
+
+        <ul class="social-list">
+<!--	Social Template
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+-->
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/francisbessette07/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/franck_b7/?hl=en" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+	  <li class="social-item">
+            <a href="https://github.com/Francis-Bessette" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+  <!-------------------------------------------------------------------- Main Content -------------------------------------------------------------------->
+    <div class="main-content">
+
+  <!-------------------------------------------------------------------- Navbar -------------------------------------------------------------------->
+      <nav class="navbar">
+        <ul class="navbar-list">
+<!--	Navbar Tab Template
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+-->
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+        </ul>
+      </nav>
+
+  
+    </div>
+  </main>
+  <!-------------------------------------------------------------------- Custom js Link -------------------------------------------------------------------->
+  <script src="./assets/js/script.js"></script>
+
+  <!-------------------------------------------------------------------- ionicon link -------------------------------------------------------------------->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
