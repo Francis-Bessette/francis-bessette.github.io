@@ -945,8 +945,8 @@ main {
 
 .project-img {
   position: relative;
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 200px;
   border-radius: 16px;
   overflow: hidden;
   margin-bottom: 15px;
@@ -991,8 +991,8 @@ main {
 .project-item-icon-box ion-icon { --ionicon-stroke-width: 50px; }
 
 .project-img img {
-  width: 300px;
-  height: 150px;
+  width: 250px;
+  height: 200px;
   object-fit: cover;
   transition: var(--transition-1);
 }
