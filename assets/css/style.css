@@ -290,9 +290,9 @@ article.active {
   margin-right: auto;
   width: 50%;
 }
-
-
-
+img {
+  border-radius: 12%;
+}
 
 /*-----------------------------------*\
   #MAIN
