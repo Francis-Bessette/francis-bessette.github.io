@@ -51,8 +51,24 @@
       background-color: transparent;
       text-decoration: underline;
     }
-    #rcprofile { border-radius: 12px; }
-    #rcimage { border-radius: 5px; }
+
+    #rcprofile {
+      border-radius: 12px;
+    }
+
+    #rcimage {
+      border-radius: 5px;
+    }
+
+    .column {
+      float: left;
+      width: 50%;
+      padding: 5px;
+    }
+
+    img {
+      width: 100%;
+    }
   </style>
   <!-------------------------------------------------------------------- Script -------------------------------------------------------------------->
   <script>
@@ -193,8 +209,8 @@
             customer changed certain dimension and
             features. I also regularly kept him updated on the build progress. The customer was very satisfied with the
             final product!
-          </p><img src="./assets/images/KitchenDrawing.jpg" id="rcimage" alt="Custom Kitchen Drawing" class="center" width="500"
-            style="max-width:95%;border:2px solid #F1D16C;">
+          </p><img src="./assets/images/KitchenDrawing.jpg" id="rcimage" alt="Custom Kitchen Drawing" class="center"
+            width="500" style="max-width:95%;border:2px solid #F1D16C;">
           <p>
             The kitchen is composed of two parts: the cart and the counter.
           </p>
@@ -206,10 +222,13 @@
             The counter supports the gas and charcoal BBQs. With an aluminum frame and full stainless steel shell it is
             heat resistant all while
             looking amazing. It has ventilation on the side to help reduce tempurture build up.
-          </p> <img src="./assets/images/FinalKitchen2.JPG" id="rcimage" alt="Custom Kitchen" class="center" width="500"
-            style="max-width:95%;border:2px solid #F1D16C;">
-          <img src="./assets/images/FinalKitchen1.JPG" id="rcimage" alt="Custom Kitchen" class="center" width="500"
-            style="max-width:95%;border:2px solid #F1D16C;">
+          </p>
+          <div class="column">
+            <img src="./assets/images/FinalKitchen2.JPG" id="rcimage" alt="Custom Kitchen" class="center" width="500"
+              style="max-width:95%;border:2px solid #F1D16C;">
+            <img src="./assets/images/FinalKitchen1.JPG" id="rcimage" alt="Custom Kitchen" class="center" width="500"
+              style="max-width:95%;border:2px solid #F1D16C;">
+          </div>
         </section>
       </article>
     </div>
