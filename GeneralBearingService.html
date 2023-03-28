@@ -64,6 +64,16 @@
     img {
       width: 100%;
     }
+
+    .sizing {
+      float: left;
+      width: 100%;
+      padding: 5px;
+    }
+
+    img {
+      width: 100%;
+    }
   </style>
   <!-------------------------------------------------------------------- Script -------------------------------------------------------------------->
   <script>
@@ -182,8 +192,8 @@
         <section class="about-text">
           <p>
             This project was realized in my first year engineering design class. The mandate from the client was to
-            create a system/software to quickly identify bearings in different wear condition. Making it easier for 
-            his employes and getting the customers out the door faster. My group came up with a vision system with 
+            create a system/software to quickly identify bearings in different wear condition. Making it easier for
+            his employes and getting the customers out the door faster. My group came up with a vision system with
             an Excel database of the top 300 most common bearings.
           </p>
           <p>
@@ -201,25 +211,28 @@
             </div>
           </div>
           <p>
-            The webcam has an integrated ring light which help greatly the Python AI vision system to identify the 
-            edges of the bearing properly. I coded the entire project in Python for the backend and used Anvil (which 
+            The webcam has an integrated ring light which help greatly the Python AI vision system to identify the
+            edges of the bearing properly. I coded the entire project in Python for the backend and used Anvil (which
             also uses python) to create a simple and fast interface. <a href="https://anvil.works/">Check out Anvil</a>
           </p>
           <p>
-            <div class="column">
-              <img src="./assets/images/GBS_CamView.png" alt="GBS Cam" width="400" height="300"
+          <div class="column">
+            <img src="./assets/images/GBS_CamView.png" alt="GBS Cam" width="400" height="300"
               style="max-width:95%;border:2px solid #F1D16C;">
-              </div>
+          </div>
           </p>
           <p>
-            The programe now takes the image captured and put it through a couple manupilation to eliminate showdows 
-            and only focus on the quater and the bearing. The quater is used as a reference point, since the support is 
-            height adjustable the size of one pixel is not always the same ratio in mm. Because we know the physical 
-            dimension of the quater, a simple cross multiplication can give the dimension in mm of the inside and outside 
-            ring. With many itiration I was able to get the accuracy down to about 1mm which was beyond the customers 
+            The programe now takes the image captured and put it through a couple manupilation to eliminate showdows
+            and only focus on the quater and the bearing. The quater is used as a reference point, since the support is
+            height adjustable the size of one pixel is not always the same ratio in mm. Because we know the physical
+            dimension of the quater, a simple cross multiplication can give the dimension in mm of the inside and
+            outside
+            ring. With many itiration I was able to get the accuracy down to about 1mm which was beyond the customers
             expectationt. My programe was tied for 1st at the design fair for the accuracy of the vision system.
+          <div class="sizing">
             <img src="./assets/images/GBS_Interface.png" alt="GBS Interface" width="400" height="300"
-            style="max-width:95%;border:2px solid #F1D16C;">
+              style="max-width:95%;border:2px solid #F1D16C;">
+          </div>
           </p>
           <p>
             <a href="https://makerepo.com/300186999/936.identificateur-de-roulement-fd10"> You can check out all the
