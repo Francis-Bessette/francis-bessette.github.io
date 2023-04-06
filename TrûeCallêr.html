@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Get more icons at https://ionic.io/ionicons -->
+<head>
+	<!-------------------------------------------------------------------- Google tag (gtag.js) -------------------------------------------------------------------->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-KMFNJW712P"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-KMFNJW712P');
+	</script>
+	<!-------------------------------------------------------------------- Title -------------------------------------------------------------------->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="I bring a unique perspective to my work in mechanical engineering, blending technical knowledge with a keen 
+					  understanding of business.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Liza Mods</title>
+
+	<!-------------------------------------------------------------------- Favicon -------------------------------------------------------------------->
+	<link rel="shortcut icon" href="./assets/images/ic_liza.png" type="image/x-icon">
+
+	<!-------------------------------------------------------------------- Custom CSS link -------------------------------------------------------------------->
+	<link rel="stylesheet" href="./assets/css/style.css">
+
+	<!-------------------------------------------------------------------- Google Font Link-------------------------------------------------------------------->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+	<!-------------------------------------------------------------------- Styling -------------------------------------------------------------------->
+	<style>
+		a:link {
+			color: #9e9436;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:visited {
+			color: #9F894B;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #7b85b5;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:active {
+			color: #e4e5ed;
+			background-color: transparent;
+			text-decoration: underline;
+		}
+
+		#rcprofile {
+			border-radius: 12px;
+		}
+
+		.tab {
+			text-indent: 40px;
+		}
+	</style>
+	<!-------------------------------------------------------------------- Script -------------------------------------------------------------------->
+	<script>
+		function myFunction() {
+			navigator.clipboard.writeText("lizamods.me@gmail.com")
+				.then(() => {
+					alert("Email Copied!");
+				})
+				.catch(() => {
+					alert("Something went wrong... But I can tell you that my email is lizamods.me@gmail.com");
+				});
+		}
+	</script>
+</head>
+
+<body>
+	<!-------------------------------------------------------------------- Main -------------------------------------------------------------------->
+	<main>
+		<!-------------------------------------------------------------------- Sidebar -------------------------------------------------------------------->
+		<aside class="sidebar" data-sidebar>
+			<div class="sidebar-info">
+				<figure class="avatar-box">
+					<img src="./assets/images/ic_liza.png" id="rcprofile" alt="Francis Bessette" width="80">
+				</figure>
+
+				<div class="info-content">
+					<h1 class="name" title="Liza Mods">Liza Mods</h1>
+					<p class="title">Open Universe Of Mods Apps</p>
+				</div>
+				<button class="info_more-btn" data-sidebar-btn>
+					<span>Show Contacts</span>
+					<ion-icon name="chevron-down"></ion-icon>
+				</button>
+			</div>
+			<!-------------------------------------------------------------------- Sidebar Info -------------------------------------------------------------------->
+			<div class="sidebar-info_more">
+				<div class="separator"></div>
+				<ul class="contacts-list">
+					<li class="contact-item">
+						<div class="icon-box">
+							<ion-icon name="mail-outline"></ion-icon>
+						</div>
+						<div class="contact-info">
+							<p class="contact-title">Email</p>
+							<a href="lizamods.me@gmail.com" class="contact-link">lizamods.me@gmail.com</a>
+						</div>
+					</li>
+					<li class="contact-item">
+						<div class="icon-box">
+							<ion-icon name="phone-portrait-outline"></ion-icon>
+						</div>
+						<div class="contact-info">
+							<p class="contact-title">Telegram</p>
+							<a href="https://telegram.me/lizalovv" class="contact-link">Visit Liza Mods</a>
+						</div>
+					</li>
+					<li class="contact-item">
+						<div class="icon-box">
+							<ion-icon name="location-outline"></ion-icon>
+						</div>
+						<div class="contact-info">
+							<p class="contact-title">Location</p>
+							<address>Telegram </address>
+						</div>
+					</li>
+					
+				</ul>
+				<!-------------------------------------------------------------------- Sidebar Socials -------------------------------------------------------------------->
+				<div class="separator"></div>
+				<ul class="social-list">
+					<!--	Social Template
+          				<li class="social-item">
+            					<a href="https://telegram.me/lizamods" class="social-link">
+              						<ion-icon name="logo-telegram"></ion-icon>
+            					</a>
+          				</li>
+					-->
+					<li class="social-item">
+						<a href="https://telegram.me/lizalovv" class="social-link">
+							<ion-icon name="logo-telegram"></ion-icon>
+						</a>
+					</li>
+					<li class="social-item">
+						<a href="https://telegram.me/lizalovv" class="social-link">
+							<ion-icon name="logo-instagram"></ion-icon>
+						</a>
+					</li>
+					<li class="social-item">
+						<a href="https://github.com/Lizalovv" class="social-link">
+							<ion-icon name="logo-github"></ion-icon>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</aside>
+		<!-------------------------------------------------------------------- Main Content -------------------------------------------------------------------->
+		<div class="main-content">
+			<!-------------------------------------------------------------------- Navbar -------------------------------------------------------------------->
+			<nav class="navbar">
+				<ul class="navbar-list">
+					<!--	Navbar Tab Template
+          				<li class="navbar-item">
+            					<button class="navbar-link" data-nav-link>Blog</button>
+          				</li>
+				-->
+					<li class="navbar-item">
+						<button class="navbar-link  active" data-nav-link>Home</button>
+					</li>
+					<li class="navbar-item">
+						<button class="navbar-link" data-nav-link>Resume</button>
+					</li>
+					<li class="navbar-item">
+						<button class="navbar-link" data-nav-link>Latest Mods</button>
+					</li>
+				</ul>
+			</nav>
+			<!-------------------------------------------------------------------- About -------------------------------------------------------------------->
+			<article class="trûecallêr active" data-page="trûecallêr">
+			<img src="./assets/images/Truecaller-poster.jpg" alt="Dimension id with webcam"
+										loading="lazy">
+				<h3>Truecaller Gold v13.11.5 MOD APK</h3>
+				
+				<section>
+		<p>	Know who's calling before answering: caller ID, spam protection & call blocking
+<br><br>
+Manage all your calls and messages quickly, by filtering out telemarketers, spammers and other unwanted disturbances. With a community-based spam list updated by millions of users worldwide, Truecaller is the only app you need to make your communication safe and efficient. 
+<br><br>
+Powerful Dialer & Caller ID: <br>
+- The leading caller identification app that automatically shows who is calling, even if the phone number is not in your contacts
+- See who is calling even before they call<br>
+- Video Caller ID - record a short video that plays automatically when you call friends and family. Apart from recording a selfie video, you can also set a Video Caller ID using one of the built-in templates, aiming to create a more personalized and unique calling experience<br>
+- Use Voice calling to talk to your friends on Truecaller for free<br>
+- Backup call history, contacts, messages and settings to Google Drive 
+<br><br>
+World Class Blocking & Spam Detection:<br>
+- Block calls and SMS - Identify and auto-block telemarketers, spammers, scammers, fraud, sales, and more<br>
+- Community based spam reporting in real time<br>
+- Advanced blocking options for blocking countries, similar digit sequences, and more!<br>
+<br><br>
+Smart Messaging: <br>
+- Automatically identify unknown SMS <br>
+- Automatically block spam and telemarketing SMS <br>
+- Organize your SMS into Personal, Other and Spam<br>
+- Chat for free with your friends and family in Group Chat<br>
+- Use Flash messaging for urgent messages<br>
+- Blacklist unwanted SMS senders 
+<br><br>
+Truecaller Premium - Upgrade and get access to:<br>
+- No ads<br>
+- Know who viewed your profile<br>
+- Advanced blocking and filtering options<br>
+- Ghost Call - set any name, number and photo to make it appear as if you are getting a call from that person<br>
+- Call announce - know who’s calling without looking at the phone<br>
+- Option to view profiles privately<br>
+- Get the Premium badge on your profile<br>
+- 30 contact requests a month<br>
+<br><br>
+Truecaller Gold – Stand out from the crowd<br>
+- Gold Caller ID<br>
+- High priority support<br>
+- All Premium features</p>
+<br><br></section>
+				<ul>
+				
+				<table>
+			
+				<th>Version</th>
+				<th>Download</th>
+				<tr>
+				<td>Truecaller v13.11.4</td>
+				<td>               <a class="button" href="https://telegram.me/LizaMods" rel="nofollow">
+      <i>
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400.1 400.1" style="enable-background:new 0 0 400.1 400.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#79F275;}
+	.st1{fill:#3D8749;}
+</style>
+<path class="st0" d="M329.2,270.4h-43.7c-8.8,0-16-6.6-16-14.7V66.1H133.3v189.6c0,8.1-7.2,14.7-16,14.7H73.6l127.8,93.5
+	L329.2,270.4z"/>
+<path class="st1" d="M17.8,267.2l173.6,127.1c2.9,2.1,6.5,3.2,10,3.2c3.5,0,7.1-1.1,10-3.2L385,267.2c5.3-3.9,7.4-10.5,5.1-16.4
+	c-2.2-5.9-8.3-9.9-15.1-9.9h-73.5V51.4c0-8.1-7.2-14.7-16-14.7H117.3c-8.9,0-16,6.6-16,14.7V241H27.8c-6.8,0-12.9,4-15.1,9.9
+	C10.4,256.8,12.5,263.3,17.8,267.2z M117.3,270.4c8.8,0,16-6.6,16-14.7V66.1h136.1v189.6c0,8.1,7.2,14.7,16,14.7h43.7l-127.8,93.5
+	L73.6,270.4H117.3L117.3,270.4z"/>
+    </svg>
+  </i>
+  <span class="label">Download</span>
+  <span class="text">v13.11.4, 76MB</span>
+</a>
+ 
+</div>             </td>
+</tr>
+<td>Truecaller v13.10.5</td>
+<td>        <a class="button" href="#" rel="nofollow">
+      <i>
+      <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400.1 400.1" style="enable-background:new 0 0 400.1 400.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#79F275;}
+	.st1{fill:#3D8749;}
+</style>
+<path class="st0" d="M329.2,270.4h-43.7c-8.8,0-16-6.6-16-14.7V66.1H133.3v189.6c0,8.1-7.2,14.7-16,14.7H73.6l127.8,93.5
+	L329.2,270.4z"/>
+<path class="st1" d="M17.8,267.2l173.6,127.1c2.9,2.1,6.5,3.2,10,3.2c3.5,0,7.1-1.1,10-3.2L385,267.2c5.3-3.9,7.4-10.5,5.1-16.4
+	c-2.2-5.9-8.3-9.9-15.1-9.9h-73.5V51.4c0-8.1-7.2-14.7-16-14.7H117.3c-8.9,0-16,6.6-16,14.7V241H27.8c-6.8,0-12.9,4-15.1,9.9
+	C10.4,256.8,12.5,263.3,17.8,267.2z M117.3,270.4c8.8,0,16-6.6,16-14.7V66.1h136.1v189.6c0,8.1,7.2,14.7,16,14.7h43.7l-127.8,93.5
+	L73.6,270.4H117.3L117.3,270.4z"/>
+    </svg>
+  </i>
+  <span class="label">Download</span>
+  <span class="text">PSD download, 558 KB</span>
+</a>
+ 
+</div>                      </td>
+				
+				
+				
+				
+				</ul>
+				
+				
+				
+				
+				
+				
+				
+				
+				</section>
+			</article>
+			<!------------------------Button CSS---------------------------->
+			
+			<style>
+
+/* Button */
+.button {
+  height: 20px;
+  width: 150px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  padding: 10px 6px;
+  font: normal 15px 'Trebuchet MS', Trebuchet, sans-serif;
+  color: #0077c7;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+  border-top: 1px solid #aebda8;
+  border-left: 1px solid #a4b5a1;
+  border-right: 1px solid #a4b5a1;
+  border-bottom: 1px solid #99aa95;
+  background: #e2ece1;
+  background: -webkit-linear-gradient(#e2ece1, #d6e1d1);
+  background: -moz-linear-gradient(#e2ece1, #d6e1d1);
+  background: -o-linear-gradient(#e2ece1, #d6e1d1);
+  background: linear-gradient(#e2ece1, #d6e1d1);
+  border-radius: 6px;
+  box-shadow: inset 0 1px 0 #fff, inset 0 0 0 1px rgba(244, 247, 197, 0.45);
+}
+.button:hover {
+   background: #eef8ed;
+}
+
+.button i {
+  display: inline-block;
+  width: 25px;
+  margin: -3px 3px -3px 2px;
+  vertical-align: middle;
+}
+
+.button .label {
+  position: relative;
+  top: -4px;
+}
+
+.button .text {
+  display: block;
+  font-size: 9px;
+  line-height: 0;
+  margin-left: 35px;
+  color: #839180;
+  text-shadow: none;
+  font-family: verdana, sans-serif;
+  position: relative;
+}
+			
+			
+			
+			
+			
+			</style>
+			
+			
+			
+			
+			<!------------------------------------------------------------------>
+			<!-------------------------------------------------------------------- Custom js Link -------------------------------------------------------------------->
+			<script src="./assets/js/script.js"></script>
+			<!-------------------------------------------------------------------- ionicon link -------------------------------------------------------------------->
+			<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+			<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
