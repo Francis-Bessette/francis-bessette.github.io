@@ -4,4 +4,4 @@ Francis Bessette's portfolio website using a template forked from codewithsadee/
 
 ## License
 
-This project is **free to use** and does not contains any license
+MIT
