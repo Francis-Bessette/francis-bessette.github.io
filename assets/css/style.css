@@ -683,8 +683,8 @@ main {
 }
 
 .clients-item img {
-  width: 200%;
-  height: 200%;
+  width: 125%;
+  height: 125%;
   max-height: 130px;
   vertical-align: middle;
   filter: grayscale(0);
