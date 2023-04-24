@@ -666,7 +666,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 5px;
+  gap: 50px;
   margin: 0 5px;
   padding: auto;
   padding-bottom: 5px;
