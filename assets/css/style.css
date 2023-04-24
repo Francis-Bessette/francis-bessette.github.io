@@ -685,7 +685,6 @@ main {
 .clients-item img {
   width: 150%;
   height: 150%;
-  vertical-align: middle;
   gap: 200px;
   max-height: 100px;
   filter: grayscale(0);
