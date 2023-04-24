@@ -685,8 +685,6 @@ main {
 .clients-item img {
   width: 100%;
   height: 100%;
-  gap: 200px;
-  max-height: 100px;
   filter: grayscale(0);
   transition: var(--transition-1);
 }
