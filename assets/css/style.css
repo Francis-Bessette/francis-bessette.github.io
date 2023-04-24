@@ -684,8 +684,8 @@ main {
 }
 
 .clients-item img {
-  width: 125%;
-  height: 135%;
+  width: 140%;
+  height: 150%;
   max-height: 130px;
   vertical-align: middle;
   filter: grayscale(0);
