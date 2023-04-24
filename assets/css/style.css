@@ -666,10 +666,10 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
-  margin: 0 -15px;
+  gap: 5px;
+  margin: 0 5px;
   padding: auto;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
