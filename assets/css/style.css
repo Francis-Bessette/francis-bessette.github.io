@@ -680,7 +680,6 @@ main {
 
 .clients-item {
   min-width: 50%;
-  padding: auto;
   gap: 75px;
   scroll-snap-align: start;
 }
