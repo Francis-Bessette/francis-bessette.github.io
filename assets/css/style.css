@@ -669,7 +669,7 @@ main {
   vertical-align: middle;
   gap: 15px;
   margin: 0 -15px;
-  padding: 25px;
+  padding: auto;
   padding-bottom: 25px;
   overflow-x: auto;
   scroll-behavior: smooth;
