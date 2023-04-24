@@ -670,7 +670,7 @@ main {
   gap: 75px;
   margin: 0 -15px;
   padding: 75px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
@@ -680,6 +680,7 @@ main {
 
 .clients-item {
   min-width: 50%;
+  padding: auto;
   gap: 75px;
   scroll-snap-align: start;
 }
