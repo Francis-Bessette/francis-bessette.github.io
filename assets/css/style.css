@@ -667,10 +667,10 @@ main {
   justify-content: flex-start;
   align-items: flex-start;
   vertical-align: middle;
-  gap: 75px;
+  gap: 15px;
   margin: 0 -15px;
-  padding: 5px;
-  padding-bottom: 5px;
+  padding: 25px;
+  padding-bottom: 25px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
@@ -680,7 +680,6 @@ main {
 
 .clients-item {
   min-width: 50%;
-  gap: 75px;
   scroll-snap-align: start;
 }
 
