@@ -666,7 +666,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 200px;
+  gap: 15px;
   margin: 0 -15px;
   padding: auto;
   padding-bottom: 25px;
@@ -685,6 +685,8 @@ main {
 .clients-item img {
   width: 100%;
   height: 100%;
+  vertical-align: middle;
+  gap: 200px;
   max-height: 130px;
   filter: grayscale(0);
   transition: var(--transition-1);
