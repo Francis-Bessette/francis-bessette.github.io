@@ -666,9 +666,8 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 50px;
+  gap: 15px;
   margin: 0 5px;
-  padding: auto;
   padding-bottom: 5px;
   overflow-x: auto;
   scroll-behavior: smooth;
