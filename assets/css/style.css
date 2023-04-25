@@ -668,7 +668,6 @@ main {
   align-items: center;
   gap: 15px;
   margin: 0 5px;
-  padding-bottom: 5px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
