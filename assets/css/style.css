@@ -667,7 +667,8 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
-  margin: 0 5px;
+  margin: 0 -15px;
+  padding: 1px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
