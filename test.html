@@ -78,82 +78,7 @@
 <body>
     <!-------------------------------------------------------------------- Main -------------------------------------------------------------------->
     <main>
-        <!-------------------------------------------------------------------- Sidebar -------------------------------------------------------------------->
-        <aside class="sidebar" data-sidebar>
-            <div class="sidebar-info">
-                <figure class="avatar-box">
-                    <img src="./assets/images/Profile-Picture.jpg" id="rcprofile" alt="Francis Bessette" width="80">
-                </figure>
-                <div class="info-content">
-                    <h1 class="name" title="Francis Bessette">Francis Bessette</h1>
-                    <p class="title">4rd Year Mechanical Engineering Student</p>
-                </div>
-                <button class="info_more-btn" data-sidebar-btn>
-                    <span>Show Contacts</span>
-                    <ion-icon name="chevron-down"></ion-icon>
-                </button>
-            </div>
-            <!-------------------------------------------------------------------- Sidebar Info -------------------------------------------------------------------->
-            <div class="sidebar-info_more">
-                <div class="separator"></div>
-                <ul class="contacts-list">
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="mail-outline"></ion-icon>
-                        </div>
-                        <div class="contact-info">
-                            <p class="contact-title">Email</p>
-                            <!-- The button used to copy the text -->
-                            <button class="form-btn" onclick="myFunction()">
-                                <ion-icon name="copy-outline"></ion-icon>
-                                <span> Copy Email</span>
-                            </button>
-                        </div>
-                    </li>
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="location-outline"></ion-icon>
-                        </div>
-                        <div class="contact-info">
-                            <p class="contact-title">Location</p>
-                            <address>Ottawa, Ontario, Canada</address>
-                        </div>
-                    </li>
-                    <li class="contact-item">
-                        <div class="icon-box">
-                            <ion-icon name="download-outline"></ion-icon>
-                        </div>
-                        <div class="contact-info">
-                            <p class="contact-title">Resume</p>
-                            <button class="form-btn"
-                                onclick="window.location.href='./assets/Francis Bessette_Apr2023.pdf';">
-                                <ion-icon name="create-outline"></ion-icon>
-                                <span> Download </span>
-                            </button>
-                        </div>
-                    </li>
-                </ul>
-                <!-------------------------------------------------------------------- Sidebar Socials -------------------------------------------------------------------->
-                <div class="separator"></div>
-                <ul class="social-list">
-                    <li class="social-item">
-                        <a href="https://www.linkedin.com/in/francisbessette07/" class="social-link">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a href="https://www.instagram.com/franck_b7/?hl=en" class="social-link">
-                            <ion-icon name="logo-instagram"></ion-icon>
-                        </a>
-                    </li>
-                    <li class="social-item">
-                        <a href="https://github.com/Francis-Bessette" class="social-link">
-                            <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </aside>
+        <!--#include virtual="./assets/template/sidebar.html" -->
         <!-------------------------------------------------------------------- Main Content -------------------------------------------------------------------->
         <div class="main-content">
             <!-------------------------------------------------------------------- Navbar -------------------------------------------------------------------->
@@ -191,7 +116,11 @@
             </article>
         </div>
     </main>
-    <!--#include virtual="assets/template/testArticle.html" -->
+    <!-------------------------------------------------------------------- Custom js Link -------------------------------------------------------------------->
+    <script src="./assets/js/script.js"></script>
+    <!-------------------------------------------------------------------- ionicon link -------------------------------------------------------------------->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
