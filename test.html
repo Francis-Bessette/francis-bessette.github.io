@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--#include virtual="assets/template/googleScript.html" -->
 
 <head>
+    <!-------------------------------------------------------------------- Google tag (gtag.js) -------------------------------------------------------------------->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EK9RC9WNKB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-EK9RC9WNKB');
+    </script>
     <!-------------------------------------------------------------------- Title -------------------------------------------------------------------->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -174,7 +182,9 @@
                 <header>
                     <h2 class="h2 article-title">Inverted Pendulum</h2>
                 </header>
-                {% include testingtxt.html %}
+                <section class="about-text">
+                    <a href="{{"/_includes/text.html" | relative_url}}">Learn More {% octicon chevron-right height:18 class:"d-inline fill-blue ml-1" %}</a>
+                </section>
             </article>
         </div>
     </main>
