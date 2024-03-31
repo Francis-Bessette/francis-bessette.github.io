@@ -166,15 +166,16 @@
     <div class="main-content">
       <!-------------------------------------------------------------------- Navbar -------------------------------------------------------------------->
       <nav class="navbar">
-				<ul class="navbar-list">
-					<li class="navbar-item">
-						<button class="navbar-link" onclick="window.location.href='https://francis-bessette.github.io/';" data-nav-link>About</button>
-					</li>
-					<li class="navbar-item">
-						<button class="navbar-link  active" onclick="history.back()" data-nav-link>Portfolio</button>
-					</li>
-				</ul>
-			</nav>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link" onclick="window.location.href='https://francis-bessette.github.io/';"
+              data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link  active" onclick="history.back()" data-nav-link>Portfolio</button>
+          </li>
+        </ul>
+      </nav>
       <!-------------------------------------------------------------------- Article Text -------------------------------------------------------------------->
       <article class="about  active" data-page="invertedPendulum">
         <header>
@@ -182,17 +183,25 @@
         </header>
         <section class="about-text">
           <p>
-            Paragraph 
+            As part of my control system class, we were tasked with building an inverted pendulum that could
+            resist some external forces. During this semester my teammate and I were faced with applying balancing technical
+            that we saw in class. On top of this, we wanted to stay under our budget of $100.
           </p>
-          <div class="column">
-            <img src="./assets/images/InvertedPendulumWIP.jpg" id="rcimage" alt="Inverted Pendulum"
-              style="max-width:95%;border:2px solid #F1D16C;">
-          </div>
           <p>
-            Paragraph
+            The genesis of the design process began with a simple sketch, drawing inspiration from readily available
+            components to ensure both affordability and functionality. Embracing the versatility of 3D printing, we opted
+            to customize the printed parts to allow for a lower spending budget.
+          </p>
+          <p>
+            With careful calibration and test prints we were able to print beautiful parts that didn't need any fastning.
+            All parts are held by friction/interference fits. 
+          </p>
+          <p>
+            By following the diagram below and the <a href="https://github.com/Francis-Bessette/invertedPendulum">InvertedPendulum</a> repo on my profile you should also be able to build and
+            adapt your own inverted pendulum.
           </p>
           <div class="column">
-            <img src="./assets/images/WIP.png" id="rcimage" alt="Inverted Pendulum"
+            <img src="./assets/images/InvertedPendulumWiringDiagramg.png" id="rcimage" alt="Inverted Pendulum"
               style="max-width:95%;border:2px solid #F1D16C;">
           </div>
           <div class="column">
@@ -209,4 +218,5 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
